@@ -301,6 +301,14 @@ button a:hover {
     height: 70vh;
   }
 
+  #courses {
+    height: 110vh;
+  }
+
+  #courses h2 {
+    margin-top: 100px;
+  }
+  
   #courses .col-md-4 {
     margin: 0px 0px;
     padding: 0px 0px;

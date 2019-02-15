@@ -1,0 +1,303 @@
+html {
+  background-color: #fff;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.2rem;
+}
+
+.header-section {
+  margin-top: 50px;
+}
+
+#main {
+  height: 70vh;
+}
+
+#courses {
+  background: url("../images/background-2nd.png");
+  background-size: cover;
+  height: 100vh;
+  padding: 20% 0% 0;
+}
+
+#courses p {
+  margin: 0 auto;
+  font-size: 16px;
+  width: 80%;
+}
+
+#project {
+  /* background-color: #00ffb9; */
+  height: 80vh;
+  margin: 10% 0% 0;
+}
+
+#design {
+  padding: 0px 0;
+  height: 50vh;
+  /* background-color: #1a61f7; */
+}
+
+#features {
+  padding: 100px 0;
+  height: 90vh;
+  background-color: #f7f7f7;
+}
+
+#about {
+  background: url("../images/background-3rd.png");
+  background-size: cover;
+  height: 120vh;
+  padding: 18% 0 0;
+}
+
+#footer {
+  background-color: rgb(32, 32, 32);
+  height: 200px;
+}
+
+/* Main */
+
+.fa-angle-right,
+.fa-angle-left {
+  color: black;
+}
+.nav-item {
+  padding: 0 10px;
+}
+
+/* Course */
+.course-img,
+.about-img {
+  border-radius: 10px;
+}
+
+/* .btn-dark {
+  font-size: 16px;
+  border-radius: 10px;
+} */
+
+.fa-behance-square {
+  color: #1a61f7;
+}
+
+.fa-youtube {
+  color: #ff0000;
+}
+button {
+  border-style: none;
+  padding: 0 10px;
+}
+
+button a {
+  color: white;
+}
+button a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#features p {
+  font-size: 16px;
+}
+
+.tags {
+  font-size: 16px;
+  color: rgb(100, 100, 100);
+}
+
+.text-footer {
+  font-size: 16px;
+}
+
+.spin-that {
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  /* transform: rotate(3deg); */
+  /* transform: rotate(0.3rad);/ */
+  /* transform: rotate(3grad); */
+  /* transform: rotate(.03turn);  */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+.course-img {
+  animation: float 6s ease-in-out infinite;
+  margin-top: 100px;
+}
+
+.course-detail {
+  width: 60%;
+  font-size: 1.3rem;
+  margin: 0 auto;
+}
+
+.carousel-indicators {
+  top: 500px;
+}
+/* Feature */
+
+.feature-img {
+  margin: 10% 0;
+}
+
+/* About */
+
+.about-info {
+  font-size: 1.8rem;
+  width: 100%;
+}
+
+.inner-bio {
+  font-size: 1.2rem;
+  color: rgb(56, 56, 56);
+  line-height: 40px;
+}
+
+/* Footer */
+.fa-heart {
+  color: red;
+}
+
+.credit {
+  font-size: 14px;
+  color: #f8f8f8;
+}
+
+.me {
+  border-bottom: 15px;
+}
+
+.me a {
+  color: white;
+  border-bottom: 1px solid #fff;
+  border-bottom-style: dotted;
+  padding-bottom: 5px;
+}
+
+.footer-icon {
+  transition: all 0.2s ease-in-out;
+}
+
+#footer .fa-youtube,
+#footer .fa-behance-square {
+  color: #fff;
+}
+.footer-icon:hover {
+  transform: scale(1.1);
+}
+
+#footer a:hover {
+  text-decoration: none;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 800px) {
+  .item {
+    margin-top: 30px;
+  }
+
+  .course-img,
+  .about-img {
+    height: 100px;
+  }
+
+  .main-img {
+    display: none;
+  }
+
+  #about {
+    padding-top: 180px;
+  }
+
+  .about-info {
+    font-size: 1.5rem;
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .inner-bio {
+    font-size: 1.2rem;
+  }
+
+  #main {
+    height: 60vh;
+  }
+
+  #courses {
+    padding: 0% 0% 0;
+    height: 100vh;
+    padding-top: 220px;
+  }
+
+  #features {
+    padding: 100px 0px 20px 0px;
+    height: 230vh;
+    background-color: #f7f7f7;
+  }
+
+  #features .col-md-3 {
+    padding: 20px 0px;
+  }
+
+  #project {
+    margin: 5% 0 0;
+    height: 60vh;
+  }
+  .feature-img {
+    display: none;
+  }
+
+  #design {
+    padding: 0px 0;
+    height: 100vh;
+  }
+
+  .fa-behance-square,
+  .fa-youtube {
+    padding: 10px;
+  }
+
+  .course-detail {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+  }
+
+  #footer {
+    height: 280px;
+  }
+}
+
+/* @media only screen and (max-width: 500px) {
+  #main {
+    height: 100vh;
+  }
+} */

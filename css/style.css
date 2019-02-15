@@ -296,8 +296,24 @@ button a:hover {
   }
 }
 
-/* @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   #main {
-    height: 100vh;
+    height: 70vh;
   }
-} */
+
+  #courses .col-md-4 {
+    margin: 0px 0px;
+    padding: 0px 0px;
+  }
+
+  #features {
+    padding: 100px 0px 20px 0px;
+    height: 260vh;
+  }
+
+  #project {
+    margin: 0% 0 0;
+    margin-top: 100px;
+    height: 80vh;
+  }
+}

@@ -294,6 +294,11 @@ button a:hover {
   #footer {
     height: 280px;
   }
+  
+    #courses {
+    background-position: bottom right;
+  }
+  
 }
 
 @media only screen and (max-width: 500px) {
@@ -325,7 +330,5 @@ button a:hover {
     height: 80vh;
   }
   
-   #courses {
-    background-position: bottom right;
-  }
+ 
 }

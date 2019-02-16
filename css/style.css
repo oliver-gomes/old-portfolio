@@ -234,7 +234,9 @@ button a:hover {
   }
 
   #about {
+    height: 160vh;
     padding-top: 180px;
+    padding-bottom: 900px;
   }
 
   .about-info {
@@ -248,13 +250,22 @@ button a:hover {
   }
 
   #main {
-    height: 60vh;
+    height: 80vh;
+    margin-bottom: 100px;
   }
 
   #courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 0% 0% 0;
-    height: 100vh;
-    padding-top: 220px;
+    height: 160vh;
+    padding-top: 50px;
+  }
+
+  #courses {
+    background-position: bottom right;
   }
 
   #features {
@@ -264,20 +275,30 @@ button a:hover {
   }
 
   #features .col-md-3 {
-    padding: 20px 0px;
+    padding: 10px 0px;
   }
 
   #project {
     margin: 5% 0 0;
     height: 60vh;
+    margin-top: 20px;
+    padding-top: 20px;
   }
+
   .feature-img {
     display: none;
   }
 
   #design {
-    padding: 0px 0;
-    height: 100vh;
+    padding: 20px 0;
+    height: 160vh;
+  }
+
+  #design .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .fa-behance-square,
@@ -294,13 +315,107 @@ button a:hover {
   #footer {
     height: 280px;
   }
-  
-    #courses {
-    background-position: bottom right;
-  }
-  
 }
 
+@media only screen and (max-width: 768px) {
+  #main {
+    height: 120vh;
+  }
+  #courses {
+    padding: 0% 0% 0;
+    height: 220vh;
+    padding-top: 90px;
+  }
+
+  #features {
+    padding: 100px 0px 10px 0px;
+    height: 450vh;
+  }
+
+  #project {
+    margin: 0% 0 0;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    height: 100vh;
+  }
+
+  #design {
+    padding: 20px 0;
+    height: 300vh;
+  }
+
+  #about {
+    height: 160vh;
+    padding-top: 180px;
+    padding-bottom: 700px;
+  }
+}
+@media only screen and (max-width: 690px) {
+  #main {
+    height: 120vh;
+  }
+  #courses {
+    padding: 0% 0% 0;
+    height: 220vh;
+    padding-top: 90px;
+  }
+
+  #features {
+    padding: 100px 0px 10px 0px;
+    height: 450vh;
+  }
+
+  #project {
+    margin: 0% 0 0;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    height: 100vh;
+  }
+
+  #design {
+    padding: 20px 0;
+    height: 300vh;
+  }
+
+  #about {
+    height: 160vh;
+    padding-top: 180px;
+    padding-bottom: 700px;
+  }
+}
+
+@media only screen and (max-width: 668px) {
+  #main {
+    height: 120vh;
+  }
+  #courses {
+    padding: 0% 0% 0;
+    height: 220vh;
+    padding-top: 90px;
+  }
+
+  #features {
+    padding: 100px 0px 10px 0px;
+    height: 600vh;
+  }
+  #project {
+    margin: 0% 0 0;
+    margin-top: 90px;
+    margin-bottom: 200px;
+    height: 100vh;
+  }
+
+  #design {
+    padding: 20px 0;
+    height: 300vh;
+  }
+
+  #about {
+    height: 160vh;
+    padding-top: 180px;
+    padding-bottom: 700px;
+  }
+}
 @media only screen and (max-width: 500px) {
   #main {
     height: 70vh;
@@ -313,7 +428,6 @@ button a:hover {
   #courses h2 {
     margin-top: 100px;
   }
-  
   #courses .col-md-4 {
     margin: 0px 0px;
     padding: 0px 0px;
@@ -321,7 +435,7 @@ button a:hover {
 
   #features {
     padding: 100px 0px 20px 0px;
-    height: 230vh;
+    height: 260vh;
   }
 
   #project {
@@ -329,6 +443,38 @@ button a:hover {
     margin-top: 100px;
     height: 80vh;
   }
-  
- 
+}
+
+@media only screen and (max-width: 420px) {
+  #design {
+    padding: 20px 0;
+    height: 150vh;
+  }
+}
+@media only screen and (max-width: 380px) {
+  #main {
+    margin-bottom: 130px;
+  }
+  #features {
+    padding: 100px 0px 0px 0px;
+    height: 270vh;
+  }
+
+  #project {
+    /* margin: 5% 0 0; */
+    height: 80vh;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+
+  #about {
+    height: 165vh;
+    padding-top: 140px;
+    padding-bottom: 700px;
+  }
+
+  #design {
+    padding: 20px 0;
+    height: 170vh;
+  }
 }

@@ -324,4 +324,8 @@ button a:hover {
     margin-top: 100px;
     height: 80vh;
   }
+  
+   #courses {
+    background-position: bottom right;
+  }
 }

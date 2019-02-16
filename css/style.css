@@ -450,6 +450,11 @@ button a:hover {
     padding: 20px 0;
     height: 150vh;
   }
+  
+   #features {
+    padding: 100px 0px 0px 0px;
+    height: 275vh;
+  }
 }
 @media only screen and (max-width: 380px) {
   #main {
